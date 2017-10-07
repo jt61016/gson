@@ -41,5 +41,6 @@ public final class CommentsTest extends TestCase {
 
     List<String> abc = new Gson().fromJson(json, new TypeToken<List<String>>() {}.getType());
     assertEquals(Arrays.asList("a", "b", "c"), abc);
+
   }
 }
